@@ -1,0 +1,11 @@
+.DS_Store
+iosExport
+testweb
+builds
+Temp
+Library
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs

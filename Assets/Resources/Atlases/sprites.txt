@@ -1,0 +1,109 @@
+{"frames": {
+	"background.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":642,"w":480,"h":640},
+		"spriteSourceSize": {"x":0,"y":0,"w":480,"h":640},
+		"sourceSize": {"w":480,"h":640}
+	},
+	"eel_0.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":1994,"w":64,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":64,"h":32},
+		"sourceSize": {"w":64,"h":32}
+	},
+	"eel_1.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":66,"y":1994,"w":64,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":64,"h":32},
+		"sourceSize": {"w":64,"h":32}
+	},
+	"eel_2.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":132,"y":1994,"w":64,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":64,"h":32},
+		"sourceSize": {"w":64,"h":32}
+	},
+	"fish_swim_0.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":198,"y":1966,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	},
+	"fish_swim_1.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":194,"y":1932,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	},
+	"fish_swim_2.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":198,"y":1966,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	},
+	"fish_swim_3.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":228,"y":1864,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	},
+	"jewel_0.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":228,"y":1898,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	},
+	"jewel_1.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":228,"y":1932,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	},
+	"jewel_2.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":194,"y":1898,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	},
+	"munro-hd.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":1606,"w":320,"h":256},
+		"spriteSourceSize": {"x":0,"y":0,"w":320,"h":256},
+		"sourceSize": {"w":320,"h":256}
+	},
+	"munro-ipad.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":1284,"w":384,"h":320},
+		"spriteSourceSize": {"x":0,"y":0,"w":384,"h":320},
+		"sourceSize": {"w":384,"h":320}
+	},
+	"munro-ipadhd.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":0,"w":640,"h":640},
+		"spriteSourceSize": {"x":0,"y":0,"w":640,"h":640},
+		"sourceSize": {"w":640,"h":640}
+	},
+	"munro.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":0,"y":1864,"w":192,"h":128},
+		"spriteSourceSize": {"x":0,"y":0,"w":192,"h":128},
+		"sourceSize": {"w":192,"h":128}
+	},
+	"player_Idle_0.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":194,"y":1864,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	},
+	"player_Idle_1.png":{
+		"rotated": false,"trimmed": true,
+		"frame": {"x":198,"y":2000,"w":32,"h":32},
+		"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+		"sourceSize": {"w":32,"h":32}
+	}
+},
+"meta": {
+	"app": "ShoeBox",
+	"size": {"w":2048,"h":2048}
+}
+}
