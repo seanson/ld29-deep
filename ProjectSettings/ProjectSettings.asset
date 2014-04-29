@@ -74,6 +74,8 @@ PlayerSettings:
     16:9: 1
     Others: 1
   iPhoneBundleIdentifier: com.seanjohnson.ProductName
+  metroEnableIndependentInputSource: 0
+  metroEnableLowLatencyPresentationAPI: 0
   productGUID: b363d82b23d5d4397a65bffdca3dbd27
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
@@ -110,8 +112,36 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: 6915e6d2a0cfc4ac5bf691f0213915a5, type: 3}
       m_Size: 128
+  - m_BuildTarget: iPhone
+    m_Icons:
+    - m_Icon: {fileID: 2800000, guid: 6915e6d2a0cfc4ac5bf691f0213915a5, type: 3}
+      m_Size: 152
+    - m_Icon: {fileID: 2800000, guid: f9df575490e1e41a489132afc273a195, type: 3}
+      m_Size: 144
+    - m_Icon: {fileID: 2800000, guid: 680dce88de97d48eba6ecfa0cffe4994, type: 3}
+      m_Size: 120
+    - m_Icon: {fileID: 2800000, guid: 0902b4ad6efb540f18dd2ad533833f07, type: 3}
+      m_Size: 114
+    - m_Icon: {fileID: 2800000, guid: 98d6b465df69c4190b4b91ddaca1250f, type: 3}
+      m_Size: 76
+    - m_Icon: {fileID: 2800000, guid: 3f9db5c966f4c4a7998836be2817ab9d, type: 3}
+      m_Size: 72
+    - m_Icon: {fileID: 2800000, guid: 521bced5c78734a638c8935707ad7b97, type: 3}
+      m_Size: 57
+  - m_BuildTarget: Android
+    m_Icons:
+    - m_Icon: {fileID: 2800000, guid: f9df575490e1e41a489132afc273a195, type: 3}
+      m_Size: 144
+    - m_Icon: {fileID: 2800000, guid: 6915e6d2a0cfc4ac5bf691f0213915a5, type: 3}
+      m_Size: 96
+    - m_Icon: {fileID: 2800000, guid: 3f9db5c966f4c4a7998836be2817ab9d, type: 3}
+      m_Size: 72
+    - m_Icon: {fileID: 2800000, guid: 521bced5c78734a638c8935707ad7b97, type: 3}
+      m_Size: 48
+    - m_Icon: {fileID: 2800000, guid: 521bced5c78734a638c8935707ad7b97, type: 3}
+      m_Size: 36
   m_BuildTargetBatching:
   - m_BuildTarget: Web
     m_StaticBatching: 0
@@ -182,6 +212,7 @@ PlayerSettings:
   metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   metroSplashScreenUseBackgroundColor: 0
   metroCapabilities: {}
+  metroUnprocessedPlugins: []
   metroCompilationOverrides: 1
   blackberryDeviceAddress: 
   blackberryDevicePassword: 
