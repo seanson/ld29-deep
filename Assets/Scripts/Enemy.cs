@@ -29,7 +29,7 @@ public class EnemySprite : FAnimatedSprite {
 			this.MAX_SPEED = 3.0f;
 			this.ACCEL = 0.3f;
 			this.behavior = new WanderHorizontal();
-			this.x = UnityEngine.Random.Range(-260.0f, 260.0f);
+			this.x = UnityEngine.Random.Range(-Futile.screen.halfWidth, Futile.screen.halfWidth);
 			break;
 		case "eel":
 			int[] idleEelAnimFrames = { 0,1,0,2 };
@@ -38,14 +38,14 @@ public class EnemySprite : FAnimatedSprite {
 			this.MAX_SPEED = 5.0f;
 			this.ACCEL = 0.5f;
 			this.behavior = new WanderHorizontal();
-			this.x = UnityEngine.Random.Range(-260.0f, 260.0f);
+			this.x = UnityEngine.Random.Range(-Futile.screen.halfWidth, Futile.screen.halfWidth);
 			break;
 		case "jewel":
 			int[] idleJewelAnimFrames = { 0,1,2 };
 			this.idleAnim = new FAnimation("jewel_hover", idleJewelAnimFrames, 300, true);
 			this.addAnimation(this.idleAnim);
 			this.behavior = new Stay();
-			this.x = UnityEngine.Random.Range(-200.0f, 200.0f);
+			this.x = UnityEngine.Random.Range(-Futile.screen.halfWidth + 40.0f, Futile.screen.halfWidth - 40.0f);
 			break;
 		default:
 			this.behavior = new Stay();

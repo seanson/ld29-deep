@@ -34,10 +34,10 @@ public class WanderHorizontal : Behavior
 			target.scaleX = 1.0f;
 		}
 
-		if (target.x > 230.0f) {
+		if (target.x > Futile.screen.halfWidth - 10.0f) {
 			target.RIGHT = false;
 		}
-		else if (target.x < -230.0f) {
+		else if (target.x < -Futile.screen.halfWidth + 10.0f) {
 			target.RIGHT = true;
 		}
 	}
@@ -59,10 +59,10 @@ public class HumanControl : PlayerControl
 		} 
 		
 		if (player.x > 0.0f){
-			player.x = Mathf.Min (240, player.x + player.dx);
+			player.x = Mathf.Min (Futile.screen.halfWidth, player.x + player.dx);
 		}
 		else {
-			player.x = Mathf.Max (-240, player.x + player.dx);
+			player.x = Mathf.Max (-Futile.screen.halfWidth, player.x + player.dx);
 		}
 
 		player.dx *= Options.DAMP;
